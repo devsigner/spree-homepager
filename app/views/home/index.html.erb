@@ -1,2 +1,14 @@
-<%= render "shared/banners"%>
-<%= render "shared/products", :products => @products, :taxon => @taxon %>
+<% content_for :sidebar do %>
+  <div data-hook="homepage_sidebar_navigation">
+    <%= render 'shared/taxonomies' %>
+  </div>
+<% end %>
+
+<div id="wrapper-banner">
+  <%= render "shared/banners"%>
+</div>
+
+<div data-hook="homepage_products">
+  <%= render "shared/products", :products => @products, :taxon => @taxon %>
+</div>
+

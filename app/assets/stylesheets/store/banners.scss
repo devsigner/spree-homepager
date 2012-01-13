@@ -1,0 +1,27 @@
+#wrapper-banner {
+  background: transparent url(/assets/store/bg-banner.png) no-repeat 0 0;
+  width: 720px - 16px;
+  height: 338px - 16px;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+#banner-slideshow {
+  position: relative;
+  width: 685px;
+  height: 283px;
+  overflow: hidden;
+  .banner {
+    background-color: white;
+  }
+
+  .banner .tagline{
+    position:absolute;
+    width:100%;
+    font-size:20px;
+    color:#fff;
+    height: 1em;
+    text-indent: -30000px;
+  }
+}
+
+

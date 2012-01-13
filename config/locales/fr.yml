@@ -1,0 +1,17 @@
+---
+fr:
+  ext_homepager:
+    show_on_homepage: "Afficher sur l'accueil"
+  banners: Diapos
+  banner: Diapo
+  listing_banners: Liste diapos
+  position: Position
+  tagline: Tagline
+  target_url: Lien URL
+  new_banner: Nouvelle diapo
+  editing_banner: Modifier Diapo
+  reorder: Ordonner
+  reorder_explain: Drag the banners up and down to adjust the order in which they are displayed
+  visible: Visible
+  drag: drag
+
