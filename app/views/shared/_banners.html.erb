@@ -3,9 +3,9 @@
     <div class="banner">
       <div class="tagline"><%=banner.tagline%></div>
       <%if banner.target_url.empty?%>
-        <%=image_tag( banner.image.url(:original)) %>
+        <%=image_tag( banner.image.url(:large)) %>
       <%else%>
-        <%= link_to(image_tag(banner.image.url(:original)), banner.target_url) %>
+        <%= link_to(image_tag(banner.image.url(:large)), banner.target_url) %>
       <%end%>
     </div>
   <%end -%>
