@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddVisibleToBanners < ActiveRecord::Migration
   def self.up
     add_column :banners, :visible, :boolean

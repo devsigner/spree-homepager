@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spree_core'
 require 'formtastic'
 require 'homepager_hooks'

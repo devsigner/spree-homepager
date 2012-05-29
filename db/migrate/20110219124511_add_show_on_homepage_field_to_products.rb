@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class AddShowOnHomepageFieldToProducts < ActiveRecord::Migration
   def self.up
     add_column :products, :show_on_homepage, :boolean, :default => false

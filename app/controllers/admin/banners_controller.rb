@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Admin::BannersController < Admin::BaseController
   resource_controller
   
