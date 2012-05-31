@@ -11,12 +11,14 @@
   <%end -%>
 </div>
 
-<script type="text/javascript" charset="utf-8">
-$(document).ready(function() {
-    $('#banner-slideshow').cycle({
-		fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
-		speed: 2000,
-		timeout: 3000
-	});
-});
-</script>
+<%= content_for :script do %>
+  <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+        $('#banner-slideshow').cycle({
+        fx: 'fade', // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+        speed: 2000,
+        timeout: 3000
+      });
+    });
+  </script>
+<% end -%>
